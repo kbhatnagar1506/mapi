@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-11-08T07:23:01.101244",
+  "queries": [
+    {
+      "query": "What is MAPI?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "[VERIFIED] MAPI is an AI memory system designed to address key issues in large language models (LLMs), such as hallucinations, context loss, and knowledge drift. It stands for Memory API and incorporates features like temporal reasoning, hybrid retrieval, and a verify-before-speak architecture. MAPI utilizes a tiered memory architecture consisting of four layers: Working Memory (in-memory/Redis), Episodic Memory (Qdrant vector DB), Semantic Memory (Neo4j knowledge graph), and Exact Store (SQLite FTS5) [S1][S2][S3].\n\n[Note: Some claims may need verification. Confidence: 0.04]",
+        "confidence": 0.04,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    },
+    {
+      "query": "What are the memory tiers?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "The memory tiers in the MAPI system consist of four layers: \n\n1. **Working Memory** - implemented using in-memory storage or Redis.\n2. **Episodic Memory** - utilizing a Qdrant vector database.\n3. **Semantic Memory** - based on a Neo4j knowledge graph.\n4. **Exact Store** - using SQLite FTS5 for exact matches.\n\nThese tiers are designed to address various challenges in AI memory management, such as hallucinations and context loss [S3].",
+        "confidence": 1.0,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    },
+    {
+      "query": "How does the system prevent hallucinations?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "The system prevents hallucinations through its architecture and features. MAPI employs a \"verify-before-speak\" approach, which likely involves validating information before it is presented, thereby reducing the chances of generating inaccurate or fabricated responses. Additionally, the use of a tiered memory architecture allows for better management of information across different types of memory, which can help maintain context and accuracy. This multi-layered approach includes Working Memory, Episodic Memory, Semantic Memory, and Exact Store, each contributing to the overall reliability of the system [S1], [S2], [S3].",
+        "confidence": 1.0,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    },
+    {
+      "query": "What databases does MAPI use?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "MAPI uses a tiered memory architecture that includes the following databases: \n\n1. Working Memory - in-memory/Redis\n2. Episodic Memory - Qdrant vector DB\n3. Semantic Memory - Neo4j knowledge graph\n4. Exact Store - SQLite FTS5 [S3].",
+        "confidence": 1.0,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    },
+    {
+      "query": "What is the architecture of MAPI?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "The architecture of MAPI consists of a tiered memory system with four distinct layers: \n\n1. **Working Memory** - implemented using in-memory storage or Redis.\n2. **Episodic Memory** - utilizing Qdrant vector database.\n3. **Semantic Memory** - based on a Neo4j knowledge graph.\n4. **Exact Store** - employing SQLite FTS5 for exact matches.\n\nThis architecture is designed to enhance the capabilities of AI systems by addressing issues like hallucinations, context loss, and knowledge drift [S1], [S2], [S3].",
+        "confidence": 1.0,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    },
+    {
+      "query": "How does temporal reasoning work?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "Temporal reasoning involves the ability to understand and manipulate time-related information, which is a feature of the MAPI system mentioned in the sources. MAPI incorporates temporal reasoning as part of its Memory API, which is designed to enhance the capabilities of AI systems by addressing issues like hallucinations and context loss [S2]. \n\nHowever, the sources do not provide detailed explanations of how temporal reasoning specifically functions within MAPI or in general. Therefore, while we know that MAPI includes temporal reasoning as a feature, the sources are insufficient to provide a comprehensive understanding of how temporal reasoning works.",
+        "confidence": 0.6,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    },
+    {
+      "query": "What is the retrieval router?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "[VERIFIED] The sources provided do not contain any information about a \"retrieval router.\" Therefore, I cannot answer your question based on the available sources.\n\n[Note: Some claims may need verification. Confidence: 0.00]",
+        "confidence": 0.0,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Tie"
+    },
+    {
+      "query": "How does memory consolidation work?",
+      "plain": {
+        "answer": "Error: fts5: syntax error near \"?\"",
+        "confidence": 0.0,
+        "sources_count": 0
+      },
+      "enhanced": {
+        "answer": "[VERIFIED] The provided sources do not contain information on how memory consolidation works. They focus on a specific AI memory system called MAPI, detailing its architecture and features, but do not explain the biological or psychological processes of memory consolidation. Therefore, I cannot answer your question based on the available sources.\n\n[Note: Some claims may need verification. Confidence: 0.35]",
+        "confidence": 0.35,
+        "sources_count": 3,
+        "routing": "Found via keyword search: MAPI"
+      },
+      "winner": "Enhanced"
+    }
+  ],
+  "summary": {
+    "total_queries": 8,
+    "plain_wins": 0,
+    "enhanced_wins": 7,
+    "ties": 1,
+    "avg_confidence_plain": 0.0,
+    "avg_confidence_enhanced": 0.6237499999999999
+  }
+}

@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+qdrant-client
+sentence-transformers
+numpy
+neo4j
+requests
+psycopg2-binary
+sqlalchemy
+pgvector
+slowapi
+python-multipart
+
